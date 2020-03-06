@@ -6,7 +6,19 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.fullbackground
+{
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Mama_instant_noodle_block.jpg/1200px-Mama_instant_noodle_block.jpg") no-repeat
+}
+center,.card-group{
+  margin-top: 10px;
+}
+.card-group>.card{
+  background-color: lightgray;
+}
+.card:hover {
+  box-shadow: 0 0 44px rgba(54, 56, 67, .6);
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
